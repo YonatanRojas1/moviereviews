@@ -24,8 +24,10 @@ export class ContactosComponent {
       this.nombre = '';
       this.email = '';
       this.mensaje = '';
-    }
     
+    }
+
+    // Aquí podrías hacer un POST a un backend o enviar un correo
     console.log('Formulario enviado:', {
       nombre: this.nombre,
       email: this.email,
@@ -37,7 +39,5 @@ export class ContactosComponent {
     this.email = '';
     this.mensaje = '';
   }
-
-
 
 }
