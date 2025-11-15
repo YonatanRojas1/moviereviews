@@ -1,0 +1,275 @@
+[
+  {
+    "id": 335984,
+    "titulo": "Blade Runner 2049",
+    "anio": 2017,
+    "genero": "Science Fiction, Drama",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg"
+  },
+  {
+    "id": 157336,
+    "titulo": "Interstellar",
+    "anio": 2014,
+    "genero": "Adventure, Drama, Science Fiction",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+  },
+  {
+    "id": 533533,
+    "titulo": "TRON: Ares",
+    "anio": 2025,
+    "genero": "Science Fiction, Adventure, Action",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/chpWmskl3aKm1aTZqUHRCtviwPy.jpg"
+  },
+  {
+    "id": 1087192,
+    "titulo": "How to Train Your Dragon",
+    "anio": 2025,
+    "genero": "Fantasy, Family, Action, Adventure",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/53dsJ3oEnBhTBVMigWJ9tkA5bzJ.jpg"
+  },
+  {
+    "id": 475557,
+    "titulo": "Joker",
+    "anio": 2019,
+    "genero": "Crime, Thriller, Drama",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+  },
+  {
+    "id": 9615,
+    "titulo": "The Fast and the Furious: Tokyo Drift",
+    "anio": 2006,
+    "genero": "Action, Crime, Drama, Thriller",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/46xqGOwHbh2TH2avWSw3SMXph4E.jpg"
+  },
+  {
+    "id": 1311031,
+    "titulo": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+    "anio": 2025,
+    "genero": "Animation, Action, Fantasy, Thriller",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sUsVimPdA1l162FvdBIlmKBlWHx.jpg"
+  },
+  {
+    "id": 7512,
+    "titulo": "Idiocracy",
+    "anio": 2006,
+    "genero": "Comedy, Science Fiction, Adventure",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6cTHBq49ApwsJaRr3ojlY1cmiXk.jpg"
+  },
+  {
+    "id": 37165,
+    "titulo": "The Truman Show",
+    "anio": 1998,
+    "genero": "Comedy, Drama",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vuza0WqY239yBXOadKlGwJsZJFE.jpg"
+  },
+  {
+    "id": 77,
+    "titulo": "Memento",
+    "anio": 2000,
+    "genero": "Mystery, Thriller",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fKTPH2WvH8nHTXeBYBVhawtRqtR.jpg"
+  },
+  {
+    "id": 238,
+    "titulo": "The Godfather",
+    "anio": 1972,
+    "genero": "Drama, Crime",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+  },
+  {
+    "id": 550,
+    "titulo": "Fight Club",
+    "anio": 1999,
+    "genero": "Drama, Thriller",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+  },
+  {
+    "id": 980489,
+    "titulo": "Gran Turismo",
+    "anio": 2023,
+    "genero": "Adventure, Action, Drama",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg"
+  },
+  {
+    "id": 31011,
+    "titulo": "Mr. Nobody",
+    "anio": 2009,
+    "genero": "Science Fiction, Drama, Romance",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qNkIONc4Rgmzo23ph7qWp9QfVnW.jpg"
+  },
+  {
+    "id": 1124,
+    "titulo": "The Prestige",
+    "anio": 2006,
+    "genero": "Drama, Mystery, Science Fiction",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2ZOzyhoW08neG27DVySMCcq2emd.jpg"
+  },
+  {
+    "id": 27205,
+    "titulo": "Inception",
+    "anio": 2010,
+    "genero": "Action, Science Fiction, Adventure",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg"
+  },
+  {
+    "id": 11324,
+    "titulo": "Shutter Island",
+    "anio": 2010,
+    "genero": "Drama, Thriller, Mystery",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg"
+  },
+  {
+    "id": 155,
+    "titulo": "Batman: The Dark Knight",
+    "anio": 2008,
+    "genero": "Drama, Action, Crime, Thriller",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+  },
+  {
+    "id": 313369,
+    "titulo": "La La Land",
+    "anio": 2016,
+    "genero": "Comedy, Drama, Romance, Music",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+  },
+  {
+    "id": 11036,
+    "titulo": "The Notebook",
+    "anio": 2004,
+    "genero": "Romance, Drama",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg"
+  },
+  {
+    "id": 296096,
+    "titulo": "Me Before You",
+    "anio": 2016,
+    "genero": "Drama, Romance",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/Ia3dzj5LnCj1ZBdlVeJrbKJQxG.jpg"
+  },
+  {
+    "id": 64690,
+    "titulo": "Drive",
+    "anio": 2011,
+    "genero": "Drama, Thriller, Crime",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/602vevIURmpDfzbnv5Ubi6wIkQm.jpg"
+  },
+  {
+    "id": 50646,
+    "titulo": "Crazy, Stupid, Love.",
+    "anio": 2011,
+    "genero": "Comedy, Drama, Romance",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/p4RafgAPk558muOjnBMHhMArjS2.jpg"
+  },
+  {
+    "id": 49013,
+    "titulo": "Cars 2",
+    "anio": 2011,
+    "genero": "Animation, Family, Adventure, Comedy",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/okIz1HyxeVOMzYwwHUjH2pHi74I.jpg"
+  },
+  {
+    "id": 22683,
+    "titulo": "Gifted Hands: The Ben Carson Story",
+    "anio": 2009,
+    "genero": "Drama",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4NxxtiqezjUmUxoDTOjO5FeJvFt.jpg"
+  },
+  {
+    "id": 1396,
+    "titulo": "Breaking Bad",
+    "anio": 2008,
+    "genero": "Drama, Crime",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
+  },
+  {
+    "id": 259693,
+    "titulo": "The Conjuring 2",
+    "anio": 2016,
+    "genero": "Horror",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zEqyD0SBt6HL7W9JQoWwtd5Do1T.jpg"
+  },
+  {
+    "id": 138843,
+    "titulo": "The Conjuring",
+    "anio": 2013,
+    "genero": "Horror, Thriller",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wVYREutTvI2tmxr6ujrHT704wGF.jpg"
+  },
+  {
+    "id": 45317,
+    "titulo": "The Fighter",
+    "anio": 2010,
+    "genero": "Drama",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xfsFerGhO1h6rLk8vwLgMyQ8WVJ.jpg"
+  },
+  {
+    "id": 116745,
+    "titulo": "The Secret Life of Walter Mitty",
+    "anio": 2013,
+    "genero": "Adventure, Comedy, Drama, Fantasy",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tY6ypjKOOtujhxiSwTmvA4OZ5IE.jpg"
+  },
+  {
+    "id": 1359,
+    "titulo": "American Psycho",
+    "anio": 2000,
+    "genero": "Thriller, Drama, Crime",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg"
+  },
+  {
+    "id": 4553,
+    "titulo": "The Machinist",
+    "anio": 2004,
+    "genero": "Thriller, Drama",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/diAYqR4xdF9Hnj7qun6DEQhRrT2.jpg"
+  },
+  {
+    "id": 569094,
+    "titulo": "Spider-Man: Across the Spider-Verse",
+    "anio": 2023,
+    "genero": "Animation, Action, Adventure, Science Fiction",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+  },
+  {
+    "id": 106646,
+    "titulo": "The Wolf of Wall Street",
+    "anio": 2013,
+    "genero": "Crime, Drama, Comedy",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg"
+  },
+  {
+    "id": 438631,
+    "titulo": "Dune",
+    "anio": 2021,
+    "genero": "Drama, History",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+  },
+  {
+    "id": 872585,
+    "titulo": "Oppenheimer",
+    "anio": 2023,
+    "genero": "Thriller, Drama",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+  },
+  {
+    "id": 680,
+    "titulo": "Pulp Fiction",
+    "anio": 1994,
+    "genero": "Thriller, Crime, Comedy, Drama",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+  },
+  {
+    "id": 80968,
+    "titulo": "Narcos: Mexico",
+    "anio": 1994,
+    "genero": "Drama, Crime",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uYcZMiIIUv8NPebpqKbUGhf2M3y.jpg"
+  },
+  {
+    "id": 324857,
+    "titulo": "Spider-Man: Into the Spider-Verse",
+    "anio": 2018,
+    "genero": "Animation, Action, Adventure, Science Fiction",
+    "imagen": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
+  }
+]

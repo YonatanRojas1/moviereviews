@@ -1,0 +1,86 @@
+body {
+  background-color: #0d1117;
+  color: #ffc107;
+  font-family: "Segoe UI", sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Modo claro */
+body.light-mode {
+  background-color: #f8f9fa;
+  color: #0d1117;
+}
+body.light-mode nav {
+  background-color: white;
+}
+body.light-mode .card {
+  background-color: white;
+  color: #0d1117;
+}
+body.light-mode footer {
+  background-color: white;
+}
+
+/* Cards */
+.card {
+  background-color: #1a1f24;
+  border: none;
+  transition: transform 0.2s ease;
+  color: #ffffff;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card .card-title {
+  color: rgb(255, 199.375, 32.5);
+  font-weight: bold;
+}
+
+/* Botones */
+.btn-warning {
+  color: #000;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  color: rgb(185.5, 139.125, 0);
+}
+
+/* Detalle */
+#detalle img {
+  transition: transform 0.3s ease;
+}
+#detalle img:hover {
+  transform: scale(1.05);
+}
+#detalle p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgb(142.935483871, 158.5, 174.064516129);
+}
+
+/* Banner y video */
+#banner, #video {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: rgba(26, 31, 36, 0.3);
+}
+
+/* Comentarios */
+#comentarios {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: rgba(26, 31, 36, 0.3);
+  color: #ffffff;
+}
+
+/* Títulos */
+h2.text-warning {
+  font-size: 2rem;
+  border-bottom: 2px solid #ffc107;
+  padding-bottom: 10px;
+}

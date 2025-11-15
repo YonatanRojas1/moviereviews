@@ -1,0 +1,68 @@
+<!-- Banner con imagen de fondo full-width -->
+<div id="banner" 
+     *ngIf="!cargando && detalle;"
+     [ngStyle]="{'background-image': 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8))' + (fondoUrl ? ', url(' + fondoUrl + ')' : ''), 'background-size': 'cover', 'background-position': 'center'}">
+
+  <div class="d-flex flex-column flex-md-row align-items-center gap-4 p-5">
+    <img [src]="detalle.imagen" class="rounded shadow-lg" style="width:250px" [alt]="detalle.titulo">
+    <div class="info-detalle text-center text-md-start">
+      <h1 class="fw-bold text-warning">
+        {{ detalle.titulo }} <span class="text-light">({{ detalle.anio }})</span>
+        <span *ngIf="detalle.esAnime" class="badge bg-info ms-2">Animada</span>
+      </h1>
+      <p><strong>⭐ Puntuación:</strong> {{ detalle.puntuacion }} / 10</p>
+      <p><strong>🎭 Géneros:</strong> {{ detalle.genero }}</p>
+      <p *ngIf="detalle.duracion"><strong>⏱ Duración:</strong> {{ detalle.duracion }} min</p>
+      <p>{{ detalle.descripcion || "Sin descripción disponible" }}</p>
+      <button class="btn btn-outline-warning mt-3" (click)="volver()">⬅ Volver</button>
+    </div>
+  </div>
+</div>
+
+<!-- Trailer full-width -->
+<div *ngIf="trailerUrl" id="video" class="my-5 text-center">
+  <h3 class="text-warning mb-3">🎬 Trailer</h3>
+  <div class="ratio ratio-16x9 mx-auto" style="max-width: 800px;">
+    <iframe 
+      [src]="trailerUrl" 
+      title="Trailer de {{ detalle.titulo }}" 
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+
+<!-- Reparto -->
+<div *ngIf="detalle.reparto?.length">
+  <h3 class="text-warning mb-4 text-center">Reparto principal</h3>
+  <div class="d-flex flex-wrap justify-content-center gap-3">
+    <div class="card text-center" *ngFor="let a of detalle.reparto" style="width: 140px;">
+      <img [src]="a.profile_path ? 'https://image.tmdb.org/t/p/w200' + a.profile_path : 'https://via.placeholder.com/200x300?text=Sin+foto'"
+           class="card-img-top rounded" [alt]="a.name">
+      <div class="card-body p-2">
+        <p class="card-title fw-bold mb-1">{{ a.name }}</p>
+        <p class="card-text text-secondary" style="font-size:0.85rem;">{{ a.character || '' }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Comentarios -->
+<div id="comentarios" class="mt-5 p-4 rounded bg-dark text-light">
+  <h4 class="text-warning mb-3">💬 Cuéntanos que te pareció!</h4>
+
+  <form id="formComentario">
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Tu nombre</label>
+      <input type="text" id="nombre" class="form-control bg-dark text-light border-warning">
+    </div>
+    <div class="mb-3">
+      <label for="comentario" class="form-label">Comentario</label>
+      <textarea id="comentario" rows="3" class="form-control bg-dark text-light border-warning" placeholder="Escribe tu reseña aquí..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-warning">Publicar</button>
+  </form>
+
+  <div id="listaComentarios" class="mt-4"></div>
+</div>

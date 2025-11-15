@@ -1,0 +1,104 @@
+<div class="container my-5">
+
+  <h1 class="text-center mb-4">Busca lo que quieras ver hoy!</h1>
+
+  <!-- BOTONES DE SECCIÓN -->
+  <div class="d-flex gap-2 mb-4 justify-content-center">
+    <button (click)="cambiarModo('peliculas')" class="btn btn-outline-warning">Películas</button>
+    <button (click)="cambiarModo('series')" class="btn btn-outline-warning">Series</button>
+    <button (click)="cambiarModo('seriesAnimadas')" class="btn btn-outline-warning">Series Animadas</button>
+  </div>
+
+  <!-- BUSCADOR + GÉNEROS -->
+  <div class="d-flex gap-2 mb-4 justify-content-center">
+
+    <input #busqueda type="text" class="form-control w-50"
+           placeholder="Buscar..."
+           (keyup.enter)="buscar(busqueda.value)">
+    <button class="btn btn-warning" (click)="buscar(busqueda.value)">Buscar</button>
+
+ <!-- Para géneros locales -->
+<select #selectGeneroLocal
+        *ngIf="seccionActual === 'peliculas'"
+        class="form-select bg-dark text-warning border-warning"
+        style="max-width: 200px;"
+        (change)="filtrarGenero(selectGeneroLocal.value)">
+  <option value="">Géneros</option>
+  <option value="Action">Action</option>
+  <option value="Comedy">Comedy</option>
+  <option value="Drama">Drama</option>
+  <option value="Horror">Horror</option>
+  <option value="Science Fiction">Science Fiction</option>
+  <option value="Romance">Romance</option>
+</select>
+
+<!-- Para géneros API (series / anime) -->
+<select #selectGeneroAPI
+        *ngIf="seccionActual !== 'peliculas'"
+        class="form-select bg-dark text-warning border-warning"
+        style="max-width: 200px;"
+        (change)="filtrarGenero(selectGeneroAPI.value)">
+  <option value="">Géneros</option>
+  <option value="28">Action</option>
+  <option value="35">Comedy</option>
+  <option value="18">Drama</option>
+  <option value="27">Horror</option>
+  <option value="878">Science Fiction</option>
+  <option value="10749">Romance</option>
+</select>
+
+  </div>
+
+  <!-- LISTA DE RESULTADOS O PELÍCULAS -->
+  <div class="row">
+    <div class="col-md-3 mb-4"
+         *ngFor="let p of (resultados.length ? resultados : 
+                           (seccionActual === 'peliculas' ? getPeliculasPaginadas() : peliculasApi))">
+
+      <div class="card h-100 bg-dark text-light">
+        <img [src]="p.imagen || 'https://image.tmdb.org/t/p/w500' + p.poster_path"
+             class="card-img-top"
+             [alt]="p.titulo || p.name">
+
+        <div class="card-body">
+          <h5 class="card-title">{{ p.titulo || p.name }}</h5>
+          <p class="card-text">{{ p.anio || p.first_air_date }}</p>
+          <p class="card-text">{{ p.genero }}</p>
+          <button class="btn btn-warning"
+                  (click)="verDetalle(
+                    p.id,
+                    p.esApi ? 'api' : 'local',
+                    seccionActual === 'peliculas' ? 'movie' : 'tv'
+                  )">
+            Ver Detalle
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PAGINACIÓN LOCAL -->
+  <div class="d-flex justify-content-center my-4" *ngIf="seccionActual === 'peliculas' && resultados.length === 0">
+    <button *ngFor="let i of [].constructor(getTotalPaginas()); let idx = index"
+            class="btn mx-1"
+            [ngClass]="{'btn-warning text-dark': paginaActual === idx+1,
+                        'btn-outline-warning': paginaActual !== idx+1}"
+            (click)="paginaActual = idx+1">
+      {{ idx + 1 }}
+    </button>
+  </div>
+
+  <!-- PAGINACIÓN API -->
+  <div class="d-flex justify-content-center my-4"
+       *ngIf="seccionActual !== 'peliculas' && resultados.length === 0">
+    <button *ngFor="let p of paginasVisibles"
+            class="btn mx-1"
+            [ngClass]="{'btn-warning text-dark': paginaApiActual === p,
+                        'btn-outline-warning': paginaApiActual !== p}"
+            (click)="irAPaginaApi(p)">
+      {{ p }}
+    </button>
+  </div>
+
+</div>

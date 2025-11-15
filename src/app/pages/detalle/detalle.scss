@@ -1,0 +1,49 @@
+/* Banner full-width */
+#banner {
+  display: flex;
+  flex-direction: column; // por defecto columna en móvil
+  justify-content: center; // centra vertical
+  align-items: center; // centra horizontal
+  padding: 80px 20px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+#banner .info-detalle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; // centra vertical dentro del info
+  align-items: center; // centra horizontal
+  color: #fff;
+  margin-top: 20px;
+}
+
+#banner .info-detalle h1,
+#banner .info-detalle p,
+#banner .info-detalle button {
+  margin-bottom: 0.5rem;
+}
+
+/* Para escritorio, alinear todo a la izquierda manteniendo imagen al lado */
+@media (min-width: 768px) {
+  #banner {
+    flex-direction: row;
+    text-align: left;
+  }
+  #banner .info-detalle {
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+}
+
+#banner img {
+  max-width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+#banner img:hover {
+  transform: scale(1.05);
+}
